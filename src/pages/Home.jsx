@@ -1,26 +1,16 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-
+import "./../App.css";
 const Home = () => {
   return (
     <div>
       <Navbar />
       <div className="text-center p-4 mt-44">
-        <p className="text-xl font-semibold text-blue-600/100 dark:text-blue-500/100">
-          هذا اللاب الاول في الاسبوع السادس عن تطبيق الروتر
-        </p>
-        <p className="text-xl font-semibold text-blue-600/75 dark:text-blue-500/75">
-        هذا اللاب الاول في الاسبوع السادس عن تطبيق الروتر
+      <h1 className="text-4xl mb-10"> معسكر جافا سكربت</h1>
 
-        </p>
-        <p className="text-xl font-semibold text-blue-600/50 dark:text-blue-500/50">
-        هذا اللاب الاول في الاسبوع السادس عن تطبيق الروتر
-
-        </p>
-        <p className="text-xl font-semibold text-blue-600/25 dark:text-blue-500/25">
-        هذا اللاب الاول في الاسبوع السادس عن تطبيق الروتر
-
-        </p>
+       <img src="https://tuwaiq.edu.sa/img/ART/Asset%201.png" alt="home" className="w-1/4 mx-auto" />
+       <hr></hr>
+       <p></p>
       </div>
     </div>
   );
