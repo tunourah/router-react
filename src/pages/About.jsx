@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 const About = () => {
   return (
-    <div className="flex justify-center p-4 mt-52">
+    <div>
+        <Navbar />
+    <div className="flex justify-center p-4 mt-44">
       <div className="max-w-md w-full bg-white shadow-lg rounded-lg p-6 space-y-4">
         <h1 className="text-end text-2xl font-bold text-gray-800">معسكر جافاسكربت</h1>
         <h3 className="text-end text-xl font-semibold text-gray-700">الوصف</h3>
@@ -13,6 +16,7 @@ const About = () => {
           كما يتعامل المشاركون مع أدوات متقدمة مثل Redux لإدارة حالة التطبيق بشكل فعّال، ويتعلمون كيفية استخدام اختبار البرمج
         </p>
       </div>
+    </div>
     </div>
   )
 }

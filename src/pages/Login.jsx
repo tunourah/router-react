@@ -1,8 +1,10 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 const Login = () => {
   return (
     <div>
+        <Navbar />
       <div className="w-full max-w-xs mx-auto mt-52">
         <form className="bg-white shadow-md rounded px-8 pt-10 pb-12 mb-4">
           <div className="mb-4">
