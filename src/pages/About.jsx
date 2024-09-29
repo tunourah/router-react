@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
         <Navbar />
-    <div className="flex justify-center p-4 mt-44">
+    <div className="flex justify-center p-4 mt-32">
       <div className="max-w-md w-full bg-white shadow-lg rounded-lg p-6 space-y-4">
         <h1 className="text-end text-2xl font-bold text-gray-800">معسكر جافاسكربت</h1>
         <h3 className="text-end text-xl font-semibold text-gray-700">الوصف</h3>

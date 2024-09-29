@@ -3,8 +3,10 @@ import {  Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="bg-white border-gray-200 dark:bg-gray-900">
+    <div dir="rtl">
+      <nav className="border-4 border-gray-200 dark:bg-gray-900">
+  
+        
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="https://cdn.tuwaiq.edu.sa/landing/images/logo/logo-h.png" className="h-12" alt="Tuwaiq Logo" />
@@ -38,24 +40,26 @@ const Navbar = () => {
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <Link to={"/Home"} className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">
-                  Home
+                  الصفحة الرئيسية
                 </Link>
               </li>
               <li>
                 <Link to={"/about"} className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">
-                  About
+                  حول
                 </Link>
               </li>
               <li>
                 <Link to={"/login"} className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">
-                  Log in
+                  تسجيل الدخول
                 </Link>
               </li>
             
             </ul>
           </div>
         </div>
+
       </nav>
+ 
     </div>
   )
 }
